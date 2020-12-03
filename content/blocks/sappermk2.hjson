@@ -5,7 +5,7 @@ description: отталкивает юнитов сильнее чем пред�
 recoilAmount: 4
 size: 3
 shootShake: 2
-range: 350
+range: 175
 reloadTime: 15
 requirements: [
 copper/400
