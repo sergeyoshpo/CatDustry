@@ -1,0 +1,8 @@
+type:material
+name: "литий"
+description: "полезен в электронике."
+color: "#B08080"
+radioactivity: 0.0
+explosiveness:0.0
+flammability:0.0
+hardness: 2
