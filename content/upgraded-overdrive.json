@@ -1,0 +1,32 @@
+{
+	"name": "Улучшенный проектор",
+	"description": "Последняя версия сверхприводного проектора",
+	"type": "OverdriveProjector"
+	"health": 1200,
+	"size": 3,
+	"range": 130,
+	"reload": 50,
+	"speedBoost": 3.0,
+	"useTime": 300,
+	"phase": "#FF9400",
+	"color": "#17C50B",
+	"consumes": {
+		"power": 10,
+		"items": {
+			"items": [ { "amount": 1, "item": "laculis" } ],
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 175 },
+		{ "item": "palladium", "amount": 225 },
+		{ "item": "copper-plate", "amount": 300 },
+		{ "item": "titanium-plate", "amount": 300 },
+		{ "item": "silicon", "amount": 600 },
+		{ "item": "surge-alloy", "amount": 470 }
+	],
+	"category": "effect", 
+	"research": "overdrive-projector",
+    "buildCostMultiplier": 0.2
+}

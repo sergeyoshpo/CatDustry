@@ -1,0 +1,27 @@
+type: itemTurret
+name: "миниган"
+description: "имеет дикую скорострельность, но урону не позавидуешь"
+targetAir: true
+targetGround: true
+health: 250
+size: 2
+reload: 1
+inaccuracy: 15
+range: 150
+ammo: {
+ copper: {
+ speed: 3
+ lifetime: 120
+ damage: 1
+ ammoMultiplier: 10
+ reloadMultiplier: 1
+ bulletWidth: 3
+ bulletHeight: 6
+ }
+ }
+category: turret
+requirements: [
+ silicon/100
+ lead/75
+ copper/125
+]

@@ -1,0 +1,29 @@
+type: ChargeTurret
+name: воздушный копейщик
+            requirements:[
+copper/1
+]
+            range: 310
+            chargeTime: 25
+            chargeMaxDelay: 15
+            chargeEffects: 14
+            recoilAmount: 2
+            reloadTime: 45
+            cooldown: 0.06
+            powerUse: 12
+            shootShake: 2
+            shootEffect: Fx.lancerLaserShoot
+            smokeEffect: Fx.none
+            chargeEffect: Fx.lancerLaserCharge
+            chargeBeginEffect: Fx.lancerLaserChargeBegin
+            heatColor: "#FF0000"
+            size: 3
+            health: 1620
+            targetAir: true
+            shootSound: Sounds.laser
+                type: laserBulletType
+                hitSize: 4
+                lifetime: 32
+                drawSize: 400
+                damage: 240
+                collidesAir: true

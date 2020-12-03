@@ -1,0 +1,15 @@
+type: ChargeTurret
+name: шок mk2
+description: стреляет 10 молниями
+health: 1800
+size: 4
+targetsAir: false
+reload: 2
+range: 200
+powerUse: 5
+inaccuracy: 1
+shootType: arc
+requirements:[
+copper/1
+]
+category: turret

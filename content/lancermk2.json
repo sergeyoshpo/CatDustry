@@ -1,0 +1,27 @@
+type: ChargeTurret
+name: копейщик mk2
+description: улучшенный копейшик
+health:450
+size:3
+recoil:0.5
+reload: 32.5
+coolDown:5
+chargeTime: 30
+range:150
+chargeMaxDelay:15
+shootType:lancerLaser
+targetAir:false
+targetGround:true
+powerUse:12
+inaccuracy:0.0
+rotatespeed:3
+chargeEffects:100.0
+requirements:[
+lead/100
+copper/50
+silicon/90
+graphite/70
+plastanium/50
+]
+category:turret
+shootSound:laser

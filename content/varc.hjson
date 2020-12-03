@@ -1,0 +1,15 @@
+type: ChargeTurret
+name: воздушная дуга
+description: дуга против воздушных юнитов
+health: 900
+size: 1
+targetGround: false
+reload: 40
+range: 80
+powerUse: 5
+inaccuracy: 1
+shootType: arc
+requirements:[
+copper/1
+]
+category: turret

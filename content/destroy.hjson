@@ -1,0 +1,26 @@
+name: дестройер
+	description: бомбардировщик
+	speed: 0.5
+  maxVelocity: 1
+	flying: true
+  type: hoverUnit
+	health: 3000
+	range: 500
+	weaponOffsetY: 1
+	eangineOffsetY: -100
+	mass: 5.0
+	targetAir: false
+	rotateWeapon: true
+    weapon:{
+	shots:1
+	name:Pip
+	bullet:{
+	speed: 1
+lifetime: 140
+	damage : 100
+  type: artilleryBulletType
+  splashDamageRadius: 80
+  splashDamage: 50
+	}
+	reload: 120
+	}

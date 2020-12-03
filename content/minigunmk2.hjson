@@ -1,0 +1,28 @@
+type: itemTurret
+name: "миниган mk2"
+description: улучшенный миниган
+targetAir: true
+targetGround: true
+health: 500
+size: 3
+reload: 0.5
+inaccuracy: 7
+range: 250
+ammo: {
+ copper: {
+ speed: 4
+ lifetime: 120
+ damage: 2
+ ammoMultiplier: 10
+ reloadMultiplier: 1
+ bulletWidth: 3
+ bulletHeight: 6
+ }
+ }
+category: turret
+requirements: [
+ silicon/200
+ lead/150
+ copper/250
+ plastanium/50
+]

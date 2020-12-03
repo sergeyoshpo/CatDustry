@@ -1,0 +1,30 @@
+type: itemTurret
+name: "мультистрел"
+description: "стреляет несколькими снарядами на все 360 градусов"
+targetAir: true
+targetGround: true
+health: 1500
+size: 3
+reload: 60
+inaccuracy: 360
+range: 200
+shots: 50
+ammo: {
+ metaglass: {
+ type: basicBulletType
+ speed: 2
+ lifetime: 200
+ damage: 25
+ ammoMultiplier: 2
+ reloadMultiplier: 1
+ bulletWidth: 9
+ bulletHeight: 12
+ }
+ }
+category: turret
+requirements: [
+ silicon/100
+ titanium/75
+ graphite/125
+ surge-alloy/50
+]

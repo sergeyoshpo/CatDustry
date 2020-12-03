@@ -1,0 +1,15 @@
+type: ChargeTurret
+name: шок
+description: стреляет 10 молниями
+health: 900
+size: 3
+targetsAir: false
+reload: 4
+range: 200
+powerUse: 10
+inaccuracy: 1
+shootType: arc
+requirements:[
+copper/1
+]
+category: turret

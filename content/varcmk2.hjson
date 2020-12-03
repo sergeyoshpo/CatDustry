@@ -1,0 +1,15 @@
+type: ChargeTurret
+name: воздушная дуга mk2
+description: улучшенная версия дуги против воздушных юнитов
+health: 1800
+size: 2
+targetsGround: false
+reload: 20
+range: 160
+powerUse: 10
+inaccuracy: 1
+shootType: arc
+requirements:[
+copper/1
+]
+category: turret

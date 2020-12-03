@@ -1,0 +1,24 @@
+name: двойная турель mk2
+type: itemTurret
+Category: turret
+            requirements: [
+copper/35
+]
+            ammoTypes:{
+            copper: standardCopper,
+            graphite: standardDense,
+            pyratite: standardIncendiary,
+            silicon: standardHoming
+            }
+
+            spread: 4
+            shots: 2
+            alternate: true
+            reloadTime: 10
+            restitution: 0.03
+            range: 200
+            shootCone: 15
+            ammoUseEffect: casing
+            health: 500
+            inaccuracy: 1
+            rotateSpeed: 20

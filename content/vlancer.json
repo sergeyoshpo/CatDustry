@@ -1,0 +1,25 @@
+type: ChargeTurret
+name: воздушный копейщик
+description: стреляет как копейшик, но по воздушным целям
+health:450
+size:2
+recoil:1
+reload: 65.0
+coolDown:10
+chargeTime:15
+range:150
+chargeMaxDelay:30
+shootType:lancerLaser
+targetAir:true
+targetGround:false
+powerUse:6.0
+inaccuracy:0.0
+rotatespeed:4
+chargeEffects:100.0
+requirements:[
+copper/50
+lead/25
+silicon/45
+]
+category:turret
+shootSound:laser
