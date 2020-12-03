@@ -17,7 +17,7 @@ ammoTypes: {
   spore-pod: {
 type: sapBulletType
                 sapStrength: 2
-                length: 190
+                length: 90
                 damage: 25
                 shootEffect: shootSmall
                 hitColor: "#bf92f9"
