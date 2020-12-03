@@ -23,84 +23,84 @@ weapons:[
 	  width: 10
 		height: 10
 		shrinkY: 0
-		speed: 4
+		speed: 3
     splashDamageRadius: 24
     splashDamage: 50
 		keepVelocity: false
 		damage: 75
-		lifetime: 60
+		lifetime: 30
     fragBullets: 1
     fragBullet: {
     type: artilleryBulletType
 	  width: 10
 		height: 10
 		shrinkY: 0
-		speed: 4
+		speed: 3
     splashDamageRadius: 24
     splashDamage: 50
 		keepVelocity: false
 		damage: 75
-		lifetime: 60
+		lifetime: 30
     fragBullets: 1
     fragBullet: {
     type: artilleryBulletType
 	  width: 10
 		height: 10
 		shrinkY: 0
-		speed: 4
+		speed: 3
     splashDamageRadius: 24
     splashDamage: 50
 		keepVelocity: false
 		damage: 75
-		lifetime: 60
+		lifetime: 30
     fragBullets: 1
     fragBullet: {
     type: artilleryBulletType
 	  width: 10
 		height: 10
 		shrinkY: 0
-		speed: 4
+		speed: 3
     splashDamageRadius: 24
     splashDamage: 50
 		keepVelocity: false
 		damage: 75
-		lifetime: 60
+		lifetime: 30
     fragBullets: 1
     fragBullet: {
     type: artilleryBulletType
 	  width: 10
 		height: 10
 		shrinkY: 0
-		speed: 4
+		speed: 3
     splashDamageRadius: 24
     splashDamage: 50
 		keepVelocity: false
 		damage: 75
-		lifetime: 60
+		lifetime: 30
     fragBullets: 1
     fragBullet: {
     type: artilleryBulletType
 	  width: 10
 		height: 10
 		shrinkY: 0
-		speed: 4
+		speed: 3
     splashDamageRadius: 24
     splashDamage: 50
 		keepVelocity: false
 		damage: 75
-		lifetime: 60
+		lifetime: 30
     fragBullets: 1
     fragBullet: {
     type: artilleryBulletType
 	  width: 10
 		height: 10
 		shrinkY: 0
-		speed: 4
+		speed: 3
     splashDamageRadius: 24
     splashDamage: 50
 		keepVelocity: false
 		damage: 75
-		lifetime: 60
+		lifetime: 30
 }}}}}}}}
 {
   shots: 1
@@ -120,7 +120,8 @@ weapons:[
 		speed: 4
 		keepVelocity: false
 		damage: 50
-    lightningLength: 5
-    lightning: 3
+    lightningLength: 10
+    lightning: 5
+    lightningDamage: 5
 		lifetime: 60
 }}]
