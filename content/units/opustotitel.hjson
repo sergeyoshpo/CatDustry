@@ -1,0 +1,53 @@
+name: опустошитель
+	speed: 0.25
+	flying: false
+	health: 40000
+  type: mech
+	range: 500
+	rotateSpeed: 10
+	targetAir: true
+weapons:[
+{
+  shots: 5
+  x: 40
+  y: 0
+  mirror: true
+  name: Pip
+  reload: 5
+  rotate: false
+  spacing: 5
+  inaccuracy :0
+  shootCone: 1
+  shootDelay: 1
+  bullet: {
+    type: basicBulletType
+	  width: 5
+		height: 25
+		shrinkY: 0
+		speed: 4
+		keepVelocity: false
+		damage: 20
+		lifetime: 80
+}}
+{
+  shots: 1
+  x: 24
+  y: -8
+  mirror: true
+  name: Pip
+  reload: 15
+  rotate: true
+  spacing: 5
+  inaccuracy :2
+  bullet: {
+    type: artilleryBulletType
+	  width: 10
+		height: 10
+		shrinkY: 0
+		speed: 2
+		keepVelocity: false
+    splashDamageRadius: 20
+    splashDamage: 75
+		damage: 100
+		lifetime: 180
+}}]

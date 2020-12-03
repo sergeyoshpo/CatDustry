@@ -1,0 +1,143 @@
+name: пока хз1.4
+type: naval
+	speed: 0.75
+	health: 7500
+	range: 140
+	rotateSpeed: 9
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 4
+  y: 8
+  mirror: true
+  name: cat-weapon
+  reload: 16
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 120
+    damage: 20
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -4
+}}
+{
+  shots: 1
+  x: 6
+  y: 8
+  mirror: true
+  name: cat-weapon
+  reload: 16
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 120
+    damage: 20
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -4
+}}
+{
+  shots: 1
+  x: 3
+  y: 8
+  mirror: true
+  name: cat-weapon
+  reload: 15
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 120
+    damage: 20
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -4
+}}
+{
+  shots: 1
+  x: 5
+  y: 8
+  mirror: true
+  name: cat-weapon
+  reload: 14
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 120
+    damage: 20
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -4
+}}
+{
+  shots: 5
+  x: 0
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+type: ShrapnelBulletType
+length: 100
+damage: 105
+}}
+{
+  shots: 1
+  x: 1
+  y: -8
+  mirror: true
+  name: cat-weapon
+  reload: 10
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBoltBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 10
+		lifetime: 30
+}}
+{
+  shots: 1
+  x: 0
+  y: -8
+  mirror: false
+  name: cat-weapon
+  reload: 20
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBoltBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 10
+		lifetime: 30
+}}]

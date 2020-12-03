@@ -1,0 +1,120 @@
+name: аэм
+type: naval
+	speed: 1.25
+	health: 500
+	range: 130
+	rotateSpeed: 9
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 4
+  y: 0
+  mirror: true
+  name: healsap
+  reload: 15
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 100
+    damage: 6
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -2
+}}
+{
+  shots: 1
+  x: 8
+  y: 0
+  mirror: true
+  name: healsap
+  reload: 15
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 100
+    damage: 6
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -2
+}}
+{
+  shots: 5
+  x: 0.5
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: LightningBulletType
+    damage: 6
+    lightningLength: 4
+    lightningLengthRand: 4
+}}
+{
+  shots: 5
+  x: -0.5
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: LightningBulletType
+    damage: 6
+    lightningLength: 4
+    lightningLengthRand: 4
+}}
+{
+  shots: 1
+  x: 1
+  y: -8
+  mirror: false
+  name: cat-weapon
+  reload: 10
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBoltBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 6
+		lifetime: 30
+}}
+{
+  shots: 1
+  x: 0
+  y: -8
+  mirror: false
+  name: cat-weapon
+  reload: 10
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBoltBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 6
+		lifetime: 30
+}}]

@@ -1,0 +1,53 @@
+name: гекс
+	speed: 1
+  type: payload
+	flying: true
+	health: 50000
+	range: 350
+  hitSize: 80
+	rotateSpeed: 10
+	targetAir: true
+  payloadCapacity: 56
+  buildSpeed: 5
+weapons:[
+{
+  shots: 1
+  x: 0
+  y: 0
+  mirror: false
+  name: WP
+  reload: 120
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: RailBulletType
+   shootEffect: railShoot
+   length: 500
+   updateEffectSeg: 60
+   pierceEffect: railHit
+   updateEffect: railTrail
+   hitEffect: massiveExplosion
+   smokeEffect: shootBig2
+   damage: 950
+   pierceDamageFactor: 0.5
+}}
+{
+  shots: 1
+  x: 16
+  y: 0
+  mirror: true
+  name: WP
+  reload: 10
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: LaserBoltBulletType
+		speed: 3
+    HealPercent: 5
+		keepVelocity: false
+		damage: 150
+		lifetime: 120
+}}
+]

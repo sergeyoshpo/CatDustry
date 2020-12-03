@@ -1,0 +1,30 @@
+name: секстипл
+	speed: 0.5
+  type: flying
+	health: 50000
+	range: 200
+	rotateSpeed: 10
+
+  flying: true
+	targetAir: true
+weapons:[
+{
+  shots: 25
+  x: 0
+  y: 0
+  mirror: false
+  name: cat-weapon
+  reload: 30
+  rotate: true
+  spacing: 5
+  inaccuracy :5
+  bullet: {
+    type: basicBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 100
+		lifetime: 120
+}}]

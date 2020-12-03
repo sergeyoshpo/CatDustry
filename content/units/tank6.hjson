@@ -1,0 +1,29 @@
+name: сверх ультра тяжёлый танк
+	speed: 0.25
+
+	health: 60000
+	range: 200
+	rotateSpeed: 10
+
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 0
+  y: 0
+  mirror: false
+  name: cat-weapon
+  reload: 450
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 7000
+		lifetime: 120
+}}]

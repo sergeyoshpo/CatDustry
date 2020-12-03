@@ -1,0 +1,109 @@
+name: пиздец
+	speed: 1
+	flying: true
+	health: 250000
+	range: 350
+	rotateSpeed: 10
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 16
+  y: 0
+  mirror: false
+  name: WP
+  reload: 2
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 4
+		height: 20
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 750
+		lifetime: 60
+}}
+{
+  shots: 1
+  x: -16
+  y: 0
+  mirror: false
+  name: WP
+  reload: 2
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 4
+		height: 20
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 750
+		lifetime: 60
+}}
+{
+  shots: 25
+  x: 14
+  y: 8
+  mirror: true
+  name: WP
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 4
+		height: 20
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 500
+		lifetime: 60
+}}
+{
+  shots: 1
+  x: 8
+  y: 16
+  mirror: true
+  name: WP
+  reload: 120
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: missileBulletType
+	  width: 4
+		height: 20
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 2500
+		lifetime: 60
+}}
+{
+  shots: 5
+  x: 8
+  y: 0
+  mirror: true
+  name: WP
+  reload: 30
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: artilleryBulletType
+	  width: 20
+		height: 20
+		shrinkY: 0
+		speed: 2
+		keepVelocity: false
+		damage: 750
+		lifetime: 60
+}}
+]

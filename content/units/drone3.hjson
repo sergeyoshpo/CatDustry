@@ -1,0 +1,52 @@
+  name: квадрокоптер
+	speed: 0.8
+  type: flying
+	health: 750
+	range: 200
+	rotateSpeed: 10
+  flying: true
+	targetAir: true
+  weapons:[
+{
+  shots: 1
+  x: 0
+  y: -8
+  mirror: false
+  name: cat-weapon
+  reload: 180
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 20
+		height: 20
+		shrinkY: 0
+		speed: 1
+		keepVelocity: false
+		damage: 50
+    lightningLength: 10
+    lightning: 25
+		lifetime: 180
+    lightningDamage: 5
+}}
+{
+  shots: 1
+  x: 4
+  y: 0
+  mirror: true
+  name: cat-weapon
+  reload: 30
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 10
+		height: 10
+		shrinkY: 0
+		speed: 4
+		keepVelocity: false
+		damage: 40
+		lifetime: 60
+}}]

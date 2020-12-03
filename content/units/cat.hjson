@@ -1,0 +1,30 @@
+name: кот
+	description: очень быстро стреляет ракетами
+	speed: 0.5
+type: mech
+	flying: false
+	health: 2000
+	range: 500
+	rotateSpeed: 10
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 4
+  y: 0
+  mirror: true
+  name: cat-weapon
+  reload: 2
+  rotate: false
+  spacing: 5
+  inaccuracy :15
+  bullet: {
+    type: missileBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 3
+		keepVelocity: false
+		damage: 1
+		lifetime: 120
+}}]

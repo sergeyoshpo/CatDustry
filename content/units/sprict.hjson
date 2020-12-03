@@ -1,0 +1,117 @@
+name: сприкт
+	description: очень быстро стреляет ракетами
+	speed: 0.75
+targetGround: true
+targetAir: true
+legCount: 10
+legMoveSpace: 0.9
+legPairOffset: 3
+legLength: 80
+legExtension: -20
+legBaseOffset: 8
+landShake: 1
+legSpeed: 0.1
+legLengthScl: 1
+rippleScale: 3
+legSplashDamage: 500
+legSplashRange: 42
+hovering: true
+allowLegStep: true
+visualElevation: 1
+	health: 50000
+	range: 200
+	rotateSpeed: 10
+weapons:[
+{
+  shots: 1
+  x: 16
+  y: 16
+  mirror: true
+  name: ham
+  reload: 5
+  rotate: true
+  spacing: 5
+  inaccuracy :3
+  bullet: {
+    type: basicBulletType
+	  width: 10
+		speed: 4
+		keepVelocity: false
+		damage: 100
+		lifetime: 60
+}}
+{
+  shots: 1
+  x: 16
+  y: -16
+  mirror: true
+  name: ham
+  reload: 5
+  rotate: true
+  spacing: 5
+  inaccuracy :3
+  bullet: {
+    type: basicBulletType
+	  width: 10
+		speed: 4
+		keepVelocity: false
+		damage: 100
+		lifetime: 60
+}}
+{
+  shots: 1
+  x: 0
+  y: 0
+  mirror: false
+  name: force
+  reload: 120
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: artilleryBulletType
+	  width: 30
+    height: 30
+    backColor: "#bf92f9"
+    frontColor: "#bf92f9"
+    lightningColor: "#bf92f9"
+		speed: 2.5
+		keepVelocity: false
+		damage: 500
+    splashDamageRadius: 40
+    splashDamage: 250
+		lifetime: 60
+    lightningLength: 10
+    lightning: 20
+    fragBullets: 10
+    fragBullet: {
+    type: artilleryBulletType
+	  width: 15
+    height: 15
+		speed: 2.5
+    backColor: "#bf92f9"
+    frontColor: "#bf92f9"
+    lightningColor: "#bf92f9"
+		keepVelocity: false
+		damage: 250
+		lifetime: 120
+    lightningLength: 10
+    lightning: 10
+    fragBullets: 7
+    fragBullet: {
+    type: artilleryBulletType
+	  width: 7.5
+    height: 7.5
+		speed: 2.5
+    backColor: "#bf92f9"
+    frontColor: "#bf92f9"
+    lightningColor: "#bf92f9"
+		keepVelocity: false
+		damage: 125
+		lifetime: 30
+    lightningLength: 10
+    lightning: 5
+    fragBullets: 5
+}
+}
+}}]

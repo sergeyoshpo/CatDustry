@@ -1,0 +1,23 @@
+type: flying
+name: аннигилятор
+description: уже настоящая проблема
+speed: 10
+flying: true
+health: 1000000000000000000
+weapons: [{
+name: annihilator-weapon
+inaccuracy: 5
+x:0
+y:0
+length: 10.0
+rotate: true
+shots: 20
+mirror:false
+reload: 2
+bullet:{
+homingRange: 500
+homingPower: 2000
+speed: 5
+damage: 1000000000000000
+lifetime: 60
+}}]

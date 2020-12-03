@@ -1,0 +1,64 @@
+name: скат
+type: naval
+	speed: 1.5
+	health: 200
+	range: 120
+	rotateSpeed: 10
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 4
+  y: 0
+  mirror: true
+  name: healsap
+  reload: 15
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 80
+    damage: 3
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -1
+}}
+{
+  shots: 5
+  x: 0
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: LightningBulletType
+    damage: 3
+    lightningLength: 3
+    lightningLengthRand: 3
+}}
+{
+  shots: 1
+  x: 0
+  y: -8
+  mirror: false
+  name: cat-weapon
+  reload: 10
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBoltBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 2
+		lifetime: 30
+}}]

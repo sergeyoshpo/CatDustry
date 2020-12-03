@@ -1,0 +1,176 @@
+name: тритон
+type: naval
+	speed: 1
+	health: 1000
+	range: 140
+	rotateSpeed: 9
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 12
+  y: -8
+  mirror: true
+  name: healsap
+  reload: 15
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 120
+    damage: 9
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -3
+}}
+{
+  shots: 1
+  x: 6
+  y: 0
+  mirror: true
+  name: healsap
+  reload: 15
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 120
+    damage: 9
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -3
+}}
+{
+  shots: 1
+  x: 5
+  y: 8
+  mirror: true
+  name: healsap
+  reload: 15
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.1
+    length: 120
+    damage: 9
+    hitColor: "#bf92f9"
+    width: 0.55
+    lifetime: 30
+    knockback: -3
+}}
+{
+  shots: 5
+  x: 0
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: LightningBulletType
+    damage: 10
+    lightningLength: 5
+    lightningLengthRand: 5
+}}
+{
+  shots: 5
+  x: 1
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: LightningBulletType
+    damage: 10
+    lightningLength: 5
+    lightningLengthRand: 5
+}}
+{
+  shots: 5
+  x: 1
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: LightningBulletType
+    damage: 10
+    lightningLength: 5
+    lightningLengthRand: 5
+}}
+{
+  shots: 1
+  x: 1
+  y: -8
+  mirror: false
+  name: cat-weapon
+  reload: 10
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBoltBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 9
+		lifetime: 30
+}}
+{
+  shots: 1
+  x: 0
+  y: -8
+  mirror: false
+  name: cat-weapon
+  reload: 10
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBoltBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 9
+		lifetime: 30
+}}
+{
+  shots: 1
+  x: -1
+  y: -8
+  mirror: false
+  name: cat-weapon
+  reload: 10
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBoltBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 9
+		lifetime: 30
+}}]

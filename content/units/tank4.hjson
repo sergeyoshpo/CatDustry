@@ -1,0 +1,74 @@
+name: очень тяжёлый танк
+	speed: 0.75
+	health: 7500
+	range: 200
+	rotateSpeed: 10
+
+	targetAir: true
+weapons:[
+{
+  shots: 10
+  x: 0
+  y: 0
+  mirror: false
+  name: cat-weapon
+  reload: 180
+  recoil: 3
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 100
+		lifetime: 120
+}}
+{
+  shots: 1
+  x: 8
+  y: -16
+  mirror: false
+  name: cat-weapon
+  reload: 60
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: artilleryBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 3
+		keepVelocity: false
+		damage: 50
+    splashDamageRadius: 40
+    splashDamage: 50
+		lifetime: 120
+}}
+{
+  shots: 1
+  x: 6
+  y: 12
+  mirror: false
+  name: cat-weapon
+  reload: 20
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: missileBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 50
+		lifetime: 120
+}}]
+
+
+

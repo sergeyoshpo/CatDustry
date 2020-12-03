@@ -1,0 +1,31 @@
+name: мира
+	speed: 1
+
+
+	health: 100
+	range: 200
+	rotateSpeed: 10
+
+	targetAir: true
+flying: true
+weapons:[
+{
+  shots: 5
+  x: 0
+  y: 0
+  mirror: false
+  name: -
+  reload: 90
+  rotate: true
+  spacing: 5
+  inaccuracy :10
+  bullet: {
+    type: basicBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 10
+		lifetime: 120
+}}]

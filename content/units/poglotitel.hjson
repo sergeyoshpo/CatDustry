@@ -1,0 +1,126 @@
+name: поглотитель
+	speed: 0.4
+	flying: true
+	health: 50000
+	range: 200
+  type: flying
+	rotateSpeed: 10
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 24
+  y: 8
+  mirror: true
+  name: WP
+  reload: 8
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 4
+		speed: 3
+		keepVelocity: false
+		damage: 75
+		lifetime: 120
+}}
+{
+  shots: 1
+  x: 24
+  y: 0
+  mirror: true
+  name: WP
+  reload: 8
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 4
+		height: 20
+		shrinkY: 0
+		speed: 3
+		keepVelocity: false
+		damage: 75
+		lifetime: 120
+}}
+{
+  shots: 1
+  x: 24
+  y: -8
+  mirror: true
+  name: WP
+  reload: 8
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 4
+		height: 20
+		shrinkY: 0
+		speed: 3
+		keepVelocity: false
+		damage: 75
+		lifetime: 120
+}}
+{
+  shots: 1
+  x: 24
+  y: -16
+  mirror: true
+  name: WP
+  reload: 8
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 4
+		height: 20
+		shrinkY: 0
+		speed: 3
+		keepVelocity: false
+		damage: 75
+		lifetime: 120
+}}
+{
+  shots: 1
+  x: 16
+  y: 16
+  mirror: true
+  name: WP
+  reload: 8
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 4
+		height: 20
+		shrinkY: 0
+		speed: 3
+		keepVelocity: false
+		damage: 75
+		lifetime: 120
+}}
+{
+  shots: 1
+  x: 0
+  y: 0
+  mirror: false
+  name: WP
+  reload: 120
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: laserBulletType
+	  width: 3
+		speed: 3
+		keepVelocity: false
+		damage: 250
+		lifetime: 60
+}}
+]

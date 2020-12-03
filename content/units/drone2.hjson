@@ -1,0 +1,30 @@
+name: трипл
+	speed: 0.9
+  type: flying
+	health: 250
+	range: 200
+	rotateSpeed: 10
+
+flying: true
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 0
+  y: 0
+  mirror: false
+  name: cat-weapon
+  reload: 2
+  rotate: true
+  spacing: 5
+  inaccuracy :10
+  bullet: {
+    type: basicBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 2
+		lifetime: 120
+}}]

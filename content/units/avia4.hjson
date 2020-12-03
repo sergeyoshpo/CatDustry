@@ -1,0 +1,50 @@
+name: пока хз3
+	speed: 0.75
+  type: naval
+	flying: false
+	health: 3000
+	range: 320
+	rotateSpeed: 10
+	
+	targetAir: true
+weapons:[
+{
+  shots: 3
+  x: -4
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 5
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 25
+		lifetime: 120
+}}
+{
+  shots: 3
+  x: 4
+  y: 8
+  mirror: false
+  name: cat-weapon
+  reload: 5
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+	  width: 2
+		height: 2
+		shrinkY: 0
+		speed: 5
+		keepVelocity: false
+		damage: 25
+		lifetime: 120
+}}]
