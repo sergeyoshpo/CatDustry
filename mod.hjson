@@ -1,0 +1,7 @@
+displayName:"pvpmod"
+name:"pvpmod"
+description:"добавляет шняги которые помогут в pvp"
+minGameVersion:120
+author:"CAT"
+version:"0.7 alpha"
+dependencies:[]
