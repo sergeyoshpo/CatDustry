@@ -1,0 +1,8 @@
+name:"пар"
+description:"горячий, используется для более крутых заводов"
+temperature:10
+flammability: 0
+heatCapacity:0
+viscosity:0
+explosiveness:1
+color:"#FFFFFF"
