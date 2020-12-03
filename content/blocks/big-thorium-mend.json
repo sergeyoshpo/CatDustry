@@ -1,0 +1,26 @@
+name: большая защищённая ториевая стена
+description: ториевая стена с щитом
+type: ForceProjector
+health: 1600
+size: 2
+phaseUseTime: 60
+phaseRadiusBoost: 8
+radius: 40
+cooldownNormal: 1.25
+cooldownLiquid: 1.5
+cooldownBrokenBase: 1.25
+basePowerDraw: 2
+canOverdrive: true
+consumes: {
+power: 1
+items: {
+items: [metaglass/4]
+booster: true
+optional: true
+}}
+requirements: [
+silicon/4
+thorium/24
+]
+category: defense
+research: force-projector

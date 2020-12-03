@@ -1,0 +1,26 @@
+type:GenericSmelter
+name:"паровой котёл"
+description:"делает пар из угля и воды"
+outputLiquid:steam/300
+size:3
+hasPower:false
+hasItems:true
+hasLiquid:true
+craftTime:600
+updateEffect:steam
+itemCapacity:10
+liquidCapasity: 300
+consumes:{
+liquid: {
+liquid: water
+amount: 0.5
+}
+items:{items:[
+coal/10
+]}}
+requirements:[
+copper/30
+lead/25
+]
+category:crafting
+research:router

@@ -1,0 +1,22 @@
+name: саморегенирируящая медная стена
+description: саморегенирируящая стена
+type: MendProjector
+health: 160
+size: 1
+reload: 10
+healPercent: 1
+range: 4
+consumes: {
+	 power: 1
+items: {
+items: [blast-compound/1]
+booster: true
+optional: true
+}
+}
+requirements: [
+copper/6
+titanium/1
+ ]
+category: defense
+research: mend-projector 

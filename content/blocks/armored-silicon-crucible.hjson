@@ -1,0 +1,27 @@
+type:GenericSmelter
+name:"бронированный кремниевый тигель"
+description:"бронированный"
+outputItem:silicon/8
+size:3
+health: 1440
+hasPower:true
+hasItems:true
+craftTime:90
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power:0.5
+items:{items:[
+coal/4
+sand/6
+pyratite/1 
+]}}
+requirements:[
+metaglass/100
+titanium/150
+silicon/100
+plastanium/50
+surge-alloy/50
+]
+category:crafting
+research:router

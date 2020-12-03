@@ -1,0 +1,26 @@
+name: защищённая медная стена
+description: медная стена с щитом
+type: ForceProjector
+health: 160
+size: 1
+phaseUseTime: 60
+phaseRadiusBoost: 8
+radius: 16
+cooldownNormal: 0.5
+cooldownLiquid: 1
+cooldownBrokenBase: 0.5
+basePowerDraw: 2
+canOverdrive: true
+consumes: {
+power: 1
+items: {
+items: [titanium/1]
+booster: true
+optional: true
+}}
+requirements: [
+silicon/1
+copper/6
+]
+category: defense
+research: force-projector

@@ -1,0 +1,21 @@
+name: саморегенирируящая титановая стена
+description: саморегенирируящая стена
+type: MendProjector
+health: 220
+size: 1
+reload: 9
+healPercent: 1
+range: 4
+consumes: {
+	 power: 2
+items: {
+items: [blast-compound/1]
+booster: true
+optional: true
+}
+}
+requirements: [
+titanium/7
+ ]
+category: defense
+research: mend-projector 
