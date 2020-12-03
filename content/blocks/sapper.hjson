@@ -16,7 +16,7 @@ category: turret
 ammoTypes: {
   spore-pod: {
 type: sapBulletType
-                sapStrength: 10
+                sapStrength: 2
                 length: 190
                 damage: 25
                 shootEffect: shootSmall
