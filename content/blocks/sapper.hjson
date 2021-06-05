@@ -5,7 +5,7 @@ description: отталкивает юнитов
 recoilAmount: 4
 size: 2
 shootShake: 2
-range: 90
+range: 190
 reloadTime: 30
 requirements: [
 copper/200
@@ -16,8 +16,8 @@ category: turret
 ammoTypes: {
   spore-pod: {
 type: sapBulletType
-                sapStrength: 2
-                length: 90
+                sapStrength: 10
+                length: 190
                 damage: 25
                 shootEffect: shootSmall
                 hitColor: "#bf92f9"
