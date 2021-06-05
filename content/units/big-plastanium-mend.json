@@ -1,0 +1,27 @@
+name: большая защищённая пластаниевая стена
+description: пластаниевая стена с щитом
+type: ForceProjector
+health: 1520
+size: 2
+phaseUseTime: 60
+phaseRadiusBoost: 8
+radius: 56
+cooldownNormal: 1.5
+cooldownLiquid: 1.75
+cooldownBrokenBase: 1.5
+basePowerDraw: 6
+canOverdrive: true
+consumes: {
+power: 5
+items: {
+items: [surge-alloy/4]
+booster: true
+optional: true
+}}
+requirements: [
+silicon/4
+plastanium/24
+metaglass/8
+]
+category: defense
+research: force-projector

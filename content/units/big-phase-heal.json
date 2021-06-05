@@ -1,0 +1,22 @@
+name: большая саморегенирируящая фазовая стена
+description: саморегенирируящая стена
+type: MendProjector
+health: 1200
+size: 2
+reload: 7
+healPercent: 1
+range: 12
+consumes: {
+	 power: 4
+items: {
+items: [blast-compound/1]
+booster: true
+optional: true
+}
+}
+requirements: [
+phase-fabric/24
+titanium/4
+ ]
+category: defense
+research: mend-projector 

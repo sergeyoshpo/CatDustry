@@ -1,0 +1,27 @@
+type: Separator
+name:"выпариватель"
+description:"испаряет воду."
+results:[
+coal/1
+lithium/2
+]
+size:2
+health: 120
+hasPower:true
+hasLiquid:true
+craftTime:180
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power: 1
+liquid: {
+liquid: water
+amount: 0.05
+}
+}
+requirements:[
+copper/30
+lead/25
+]
+category:crafting
+research:router

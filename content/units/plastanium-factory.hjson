@@ -1,0 +1,29 @@
+type:GenericCrafter
+name:"пластаниевая фабрика"
+description:"более продвинутый компрессор"
+outputItem: plastanium/3
+size:3
+health: 360
+hasPower:true
+hasItems:true
+hasLiquid:true
+craftTime:60
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power:4
+liquid: {
+liquid: oil
+amount: 0.5
+}
+items:{items:[
+titanium/4
+]}}
+requirements:[
+lead/115 
+graphite/60 
+titanium/80 
+silicon/80
+]
+category:crafting
+research:router

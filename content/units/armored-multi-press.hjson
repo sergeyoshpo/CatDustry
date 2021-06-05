@@ -1,0 +1,30 @@
+type: GenericCrafter
+name:"бронированный графитовый пресс"
+description:"обычный пресс но на его создание необходим кинетический сплав"
+outputItem: graphite/2
+size:3
+health:1440
+hasPower:true
+hasItems:true
+hasLiquid:true
+craftTime:30
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power:2
+liquid: {
+liquid: steam
+amount: 0.15
+}
+items:{items:[
+coal/3
+]}}
+requirements:[
+lead/125
+graphite/75
+titanium/150
+silicon/50
+surge-alloy/25
+]
+category:crafting
+research:router
