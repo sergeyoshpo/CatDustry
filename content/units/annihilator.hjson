@@ -16,7 +16,7 @@ mirror:false
 reload: 2
 bullet:{
 homingRange: 500
-homingPower: 2000
+homingPower: 1
 speed: 5
 damage: 1000000000000000
 lifetime: 60

@@ -1,30 +1,48 @@
 name: трипл
 	speed: 0.9
   type: flying
-	health: 250
+	health: 300
 	range: 200
+hitsize: 16
+hitSize: 16
 	rotateSpeed: 10
-
 flying: true
 	targetAir: true
 weapons:[
 {
   shots: 1
-  x: 0
+  x: -2
   y: 0
+  mirror: true
+  name: t2dronesap
+  reload: 20
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+type: sapBulletType
+sapStrength: 0
+length: 160
+damage: 20
+shootEffect: shootSmall
+hitColor: "#bf92f9"
+despawnEffect: none
+width: 0.55
+lifetime: 30
+knockback: 16
+}}
+{
+  shots: 1
+  x: 0
+  y: -3
   mirror: false
-  name: cat-weapon
-  reload: 2
+  name: t2gun
+  reload: 60
   rotate: true
   spacing: 5
   inaccuracy :10
   bullet: {
-    type: basicBulletType
-	  width: 2
-		height: 2
-		shrinkY: 0
-		speed: 5
-		keepVelocity: false
-		damage: 2
-		lifetime: 120
+type: ShrapnelBulletType
+length: 100
+damage: 50
 }}]

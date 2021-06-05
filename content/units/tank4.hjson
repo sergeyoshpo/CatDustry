@@ -1,4 +1,4 @@
-name: очень тяжёлый танк
+name: убийца
 	speed: 0.75
 	health: 7500
 	range: 200
@@ -13,14 +13,15 @@ weapons:[
   mirror: false
   name: cat-weapon
   reload: 180
-  recoil: 3
+  shake: 0
+  recoil: 1
+  shotDelay: 1
   rotate: true
-  spacing: 5
   inaccuracy :0
   bullet: {
-    type: basicBulletType
-	  width: 2
-		height: 2
+    type: BasicBulletType
+	  width: 10
+		height: 10
 		shrinkY: 0
 		speed: 5
 		keepVelocity: false
@@ -31,7 +32,7 @@ weapons:[
   shots: 1
   x: 8
   y: -16
-  mirror: false
+  mirror: true
   name: cat-weapon
   reload: 60
   rotate: true
@@ -39,8 +40,8 @@ weapons:[
   inaccuracy :0
   bullet: {
     type: artilleryBulletType
-	  width: 2
-		height: 2
+	  width: 7
+		height: 7
 		shrinkY: 0
 		speed: 3
 		keepVelocity: false
@@ -53,7 +54,7 @@ weapons:[
   shots: 1
   x: 6
   y: 12
-  mirror: false
+  mirror: true
   name: cat-weapon
   reload: 20
   rotate: true
@@ -61,14 +62,11 @@ weapons:[
   inaccuracy :0
   bullet: {
     type: missileBulletType
-	  width: 2
-		height: 2
+	  width: 5
+		height: 5
 		shrinkY: 0
 		speed: 5
 		keepVelocity: false
 		damage: 50
 		lifetime: 120
 }}]
-
-
-

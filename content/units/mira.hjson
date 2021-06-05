@@ -1,31 +1,30 @@
 name: мира
 	speed: 1
-
-
-	health: 100
-	range: 200
+	health: 140
+	range: 160
 	rotateSpeed: 10
-
 	targetAir: true
 flying: true
 weapons:[
 {
-  shots: 5
+  shots: 1
   x: 0
   y: 0
   mirror: false
-  name: -
-  reload: 90
+  name: t1dronesap
+  reload: 20
   rotate: true
   spacing: 5
-  inaccuracy :10
+  inaccuracy :0
   bullet: {
-    type: basicBulletType
-	  width: 2
-		height: 2
-		shrinkY: 0
-		speed: 5
-		keepVelocity: false
-		damage: 10
-		lifetime: 120
+type: sapBulletType
+sapStrength: 0
+length: 140
+damage: 10
+shootEffect: shootSmall
+hitColor: "#bf92f9"
+despawnEffect: none
+width: 0.55
+lifetime: 30
+knockback: 8
 }}]

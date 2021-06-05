@@ -1,0 +1,49 @@
+name: пекин
+type: naval
+	speed: 0.5
+	health: 60000
+	range: 150
+	rotateSpeed: 1
+	targetAir: true
+weapons:[
+{
+  shots: 1
+  x: 0
+  y: 0
+  mirror: false
+  name: cat-weapon
+  reload: 180
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+    type: basicBulletType
+    despawnEffect:none
+    hitEffect:none
+    width: 20
+    speed: 3
+  		height: 20
+    damage: 1500
+    lifetime: 120
+    fragBullets: 20
+    fragBullet: {
+    type: basicBulletType
+    despawnEffect:none
+    hitEffect:none
+    width: 5
+    speed: 1
+  		height: 10
+    damage: 75
+    lifetime: 120
+    fragBullets: 1
+    fragBullet: {
+    type: basicBulletType
+    despawnEffect:none
+    width: 5
+    speed: 2
+  		height: 10
+    damage: 75
+    lifetime: 180
+    homingPower: 0.2
+    homingRange: 1000
+}}}}]

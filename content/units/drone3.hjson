@@ -10,9 +10,9 @@
 {
   shots: 1
   x: 0
-  y: -8
+  y: 0
   mirror: false
-  name: cat-weapon
+  name: t3drone
   reload: 180
   rotate: true
   spacing: 5
@@ -22,31 +22,55 @@
 	  width: 20
 		height: 20
 		shrinkY: 0
-		speed: 1
+		speed: 6
 		keepVelocity: false
 		damage: 50
-    lightningLength: 10
+    lightningLength: 15
     lightning: 25
-		lifetime: 180
-    lightningDamage: 5
+		lifetime: 90
+    lightningDamage: 10
 }}
 {
   shots: 1
-  x: 4
-  y: 0
+  x: 5
+  y: -2
   mirror: true
-  name: cat-weapon
-  reload: 30
+  name: t3sap
+  reload: 20
   rotate: true
   spacing: 5
   inaccuracy :0
   bullet: {
-    type: basicBulletType
-	  width: 10
-		height: 10
-		shrinkY: 0
-		speed: 4
-		keepVelocity: false
-		damage: 40
-		lifetime: 60
+type: sapBulletType
+sapStrength: 0
+length: 160
+damage: 25
+shootEffect: shootSmall
+hitColor: "#bf92f9"
+despawnEffect: none
+width: 0.55
+lifetime: 30
+knockback: 32
+}}
+{
+  shots: 1
+  x: 3
+  y: 3
+  mirror: true
+  name: t3sap
+  reload: 20
+  rotate: true
+  spacing: 5
+  inaccuracy :0
+  bullet: {
+type: sapBulletType
+sapStrength: 0
+length: 160
+damage: 25
+shootEffect: shootSmall
+hitColor: "#bf92f9"
+despawnEffect: none
+width: 0.55
+lifetime: 30
+knockback: 32
 }}]
